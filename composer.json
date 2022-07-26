@@ -1,0 +1,21 @@
+{
+    "name": "wpc/api",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/Api/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hrvoje Krbavac",
+            "email": "hrvoje.krbavac@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
